@@ -151,3 +151,4 @@ print(f"Dataset Samples  : {len(df)}")
 print(f"Accuracy         : {accuracy:.4f}")
 
 print("=" * 50)
+print(json.dumps(metrics))
