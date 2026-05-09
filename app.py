@@ -24,7 +24,7 @@ model = joblib.load("model.pkl")
 # LOAD METRICS
 # =========================================================
 
-with open("config.json") as f:
+with open("metrics.json") as f:
     metrics = json.load(f)
 
 # =========================================================
